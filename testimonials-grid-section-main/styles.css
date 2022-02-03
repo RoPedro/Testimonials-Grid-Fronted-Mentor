@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --moderate-violet: hsl(263, 55%, 52%);
+    --very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(0, 0%, 81%);
+    --light-grayish-blue: hsl(210, 46%, 95%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+body {
+    background: var(--light-grayish-blue);
+    color: var(--white);
+}
+
+.pseudoContainer {
+    height: 650px;
+    width: 1300px;
+    margin: 130px auto;
+    /* background: black; */
+}
+
+.danielContainer, .jonathanContainer, .kiraContainer, .jeaneteContainer, .patrickContainer {
+    border-radius: 10px;
+}
+
+.danielContainer {
+    height: 335px;
+    width: 650px;
+    background: var(--moderate-violet);
+    position: relative;
+    -webkit-box-shadow: 12px 15px 50px 1px rgba(0,0,0,0.20); 
+    box-shadow: 12px 15px 50px 1px rgba(0,0,0,0.20);
+}
+
+.jeaneteContainer {
+    height: 275px;
+    width: 300px;
+    background: var(--white);
+    color: var(--very-dark-blackish-blue);
+    position: relative;
+    margin-top: 40px;
+    -webkit-box-shadow: 12px 15px 50px 1px rgba(0,0,0,0.20); 
+    box-shadow: 12px 15px 50px 1px rgba(0,0,0,0.20);
+}
+
+.jonathanContainer {
+    height: 335px;
+    width: 300px;
+    background: var(--very-dark-grayish-blue);
+    position: relative;
+    margin-top: -335px;
+    margin-left: 700px;
+}
+
+.patrickContainer {
+    background: var(--very-dark-blackish-blue);
+    height: 275px;
+    width: 650px;
+    position: relative;
+    margin-left: 355px;
+    margin-top: -275px;
+}
+
+.kiraContainer {
+    width: 260px;
+    height: 650px;
+    position: absolute;
+    background: var(--white);
+    margin-left: 1040px;
+    margin-top: -335px;
+    color: var(--very-dark-blackish-blue);
+    -webkit-box-shadow: 12px 15px 50px 1px rgba(0,0,0,0.30); 
+    box-shadow: 12px 15px 50px 1px rgba(0,0,0,0.30);
+}
+
+.danielShortWords, .jonathanShortWords, .jeaneteShortWords, .kiraShortWords, .patrickShortWords {
+    padding: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 30px;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+
+.danielLongWords, .jonathanLongWords, .jeaneteLongWords, .kiraLongWords {
+    padding-left: 30px;
+    padding-right: 25px;
+    opacity: 0.70;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+img {
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 30px;
+    width: 40px;
+}
+
+.danielImg img {
+    border: 2.5px rgb(255, 255, 255, 0.35) solid;
+}
+
+.patrickImg img {
+    border: 2.5px var(--moderate-violet) solid;
+}
+
+.danielFunction, .jonathanFunction, .jeaneteFunction, .kiraFunction, .patrickFunction {
+    margin-left: 90px;
+    margin-top: 5px;
+}
+
+.danielName, .jonathanName, .jeaneteName, .kiraName, .patrickName {
+    margin-left: 90px;
+    margin-top: -40px;
+    opacity: 0.85;
+
+}
+
+.patrickLongWords {
+    padding-left: 35px;
+    padding-right: 35px;
+    
+}
+
+.jeaneteLongWords {
+    padding-left: 40px;
+    padding-right: 35px;
+}
+
+
+
+.attribution { text-align: center; color: black; }
+.attribution a { color: hsl(239, 100%, 50%) }
